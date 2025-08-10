@@ -1,0 +1,47 @@
+{
+  "name": "translate",
+  "version": "1.0.0",
+  "private": true,
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    // Start the Expo development server. Use `npm run ios` to launch the iOS simulator.
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    // A placeholder test script. Real tests should be added as the project grows.
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    // The core Expo package. Provides the runtime and APIs for the app.
+    "expo": "^50.0.0",
+    // The React version bundled with Expo.
+    "react": "18.2.0",
+    // React DOM is used by web builds when running `expo start --web`.
+    "react-dom": "18.2.0",
+    // React Native is the core of the mobile application.
+    "react-native": "0.72.4",
+    // Expo Router enables file based navigation. This works seamlessly with Expo projects.
+    "expo-router": "^1.8.3",
+    // React Query for managing asynchronous server state.
+    "@tanstack/react-query": "^5.5.4",
+    // Zustand for lightweight global state management.
+    "zustand": "^4.5.2",
+    // Zod provides runtime validation for forms and API responses.
+    "zod": "^3.22.4",
+    // SQLite bindings for offline data persistence.
+    "expo-sqlite": "^11.0.0",
+    // Audio and microphone support.
+    "expo-av": "^13.0.2"
+  },
+  "devDependencies": {
+    // TypeScript compiler and type declarations for React and React Native.
+    "typescript": "^5.1.6",
+    "@types/react": "~18.2.6",
+    "@types/react-native": "~0.72.4",
+    // ESLint with TypeScript support to keep the codebase clean.
+    "eslint": "^8.45.0",
+    "@typescript-eslint/parser": "^6.2.0",
+    "@typescript-eslint/eslint-plugin": "^6.2.0"
+  }
+}
